@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = trim($_POST["message"]);
 
     // Set recipient email address.
-    $recipient = "rajesh@aigenesistech.com, fc@aigenesistech.com";
+    $recipient = "diwakar.l@softcons.net, diwakar.l@softcons.net";
 
     // Set email subject.
     $subject = "New Contact Form Submission from $name";
