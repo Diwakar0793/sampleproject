@@ -1,0 +1,1282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn More About OmniAgents</title>
+
+  <!--=====FAB ICON=======-->
+  <link rel="shortcut icon" href="assets/img/logo/GAi Logo.png" type="image/x-icon">
+
+
+  <!--=====CSS=======-->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="assets/css/nice-select.css">
+  <link rel="stylesheet" href="assets/css/slick-slider.css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/aos.css">
+  <link rel="stylesheet" href="assets/css/mobile-menu.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+
+
+
+  <!--=====JQUERY=======-->
+  <script src="assets/js/jquery-3-7-1.min.js"></script>
+
+<style>
+
+.faq6 {
+  .faq-area {
+    .accordion-button:not(.collapsed) {
+      box-shadow: none;
+    }
+    .accordion {
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
+      .accordion-item {
+        padding: 0;
+        margin-top: 20px;
+        border: 1px solid var(--border);
+        border-radius: 4px;
+        box-shadow: none;
+        border: 2px solid #ffffff17;
+
+        &:hover {
+          background-color: #f9f9f9; /* Light gray background on hover */
+          border-color: #05c7f2;    /* Highlight border on hover */
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+        }
+
+        button {
+          padding: 18px;
+          border: none;
+          background: none;
+          border-radius: 0 !important;
+          color: var(--Home-Page-3-text-Colors, #180D03);
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 20px; /* 100% */
+
+          &:hover {
+            background-color: #05c7f253; /* Change text color on hover */
+          }
+
+          &:focus {
+            box-shadow: none;
+          }
+        }
+
+        .accordion-body {
+          padding: 0px 24px 24px 24px;
+          color: var(--Home-Page-3-white-colors, #180D03);
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 24px; /* 150% */
+
+          button {
+            color: #180D03;
+
+            &:hover {
+              color: #05c7f2; /* Change color of buttons inside the body on hover */
+            }
+          }
+        }
+
+        &.active {
+          background-color: #ffffff;
+          border-color: #9d9d9d;
+          border: 1px solid #05c7f2;
+          border-radius: 5px;
+
+          button {
+            color: #180D03;
+
+            &::after {
+              filter: none; /* Ensures no brightness or inversion is applied */
+              color: #180D03; /* Keeps the arrow color consistent */
+              display: inline-block; /* Ensures proper display */
+            }
+
+            &:hover::after,
+            &:focus::after,
+            &:active::after {
+              color: #05c7f2; /* Change arrow color on hover */
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 750px) {
+.heading1 h4 a{
+  line-height: 30px;
+}
+
+
+.faq6 {
+  .faq-area {
+    .accordion-button:not(.collapsed) {
+      box-shadow: none;
+    }
+    .accordion {
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
+      .accordion-item {
+        padding: 0;
+        margin-top: 20px;
+        border: 1px solid var(--border);
+        border-radius: 4px;
+        box-shadow: none;
+        border: 2px solid #ffffff17;
+
+        &:hover {
+          background-color: #f9f9f9; /* Light gray background on hover */
+          border-color: #05c7f2;    /* Highlight border on hover */
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+        }
+
+        button {
+          padding: 14px;
+          border: none;
+          background: none;
+          border-radius: 0 !important;
+          color: var(--Home-Page-3-text-Colors, #180D03);
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 20px; /* 100% */
+
+          &:hover {
+            background-color: #05c7f253; /* Change text color on hover */
+          }
+
+          &:focus {
+            box-shadow: none;
+          }
+        }
+
+        .accordion-body {
+          padding: 0px 24px 24px 24px;
+          color: var(--Home-Page-3-white-colors, #180D03);
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 24px; /* 150% */
+
+          button {
+            color: #180D03;
+
+            &:hover {
+              color: #05c7f2; /* Change color of buttons inside the body on hover */
+            }
+          }
+        }
+
+        &.active {
+          background-color: #ffffff;
+          border-color: #9d9d9d;
+          border: 1px solid #05c7f2;
+          border-radius: 5px;
+
+          button {
+            color: #180D03;
+
+            &::after {
+              filter: none; /* Ensures no brightness or inversion is applied */
+              color: #180D03; /* Keeps the arrow color consistent */
+              display: inline-block; /* Ensures proper display */
+            }
+
+            &:hover::after,
+            &:focus::after,
+            &:active::after {
+              color: #05c7f2; /* Change arrow color on hover */
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+}
+
+
+/* .faq6 {
+ .faq-area {
+   .accordion-button:not(.collapsed) {
+     box-shadow: none;
+     
+   }
+   .accordion {
+     border: none;
+     border-radius: 0;
+     box-shadow: none;
+     .accordion-item {
+       padding: 0;
+       margin-top: 20px;
+       border: 1px solid var(--border);
+       border-radius: 4px;
+       box-shadow: none;
+       border: 2px solid #ffffff17;
+       button {
+         padding: 18px;
+         border: none;
+         background: none;
+         border-radius: 0 !important;
+         color: var(--Home-Page-3-text-Colors, #180D03);
+         font-size: 18px;
+         font-style: normal;
+         font-weight: 500;
+         line-height: 20px; 
+         &:focus {
+           box-shadow: none;
+         }
+       }
+       .accordion-body {
+         padding: 0px 24px 24px 24px;
+         color: var(--Home-Page-3-white-colors, #180D03);
+         font-size: 16px;
+         font-style: normal;
+         font-weight: 500;
+         line-height: 24px; 
+         button {
+          color: #180D03;
+         }
+       }
+
+       &.active {
+         background-color: #ffffff;
+         border-color: #9d9d9d;
+         border: 1px solid #12f2b2;
+         border-radius: 5px;
+  
+         button {
+           color: #180D03;
+
+        
+           &::after {
+    filter: none; 
+    color: #180D03; 
+    display: inline-block; 
+}
+
+
+
+
+&:hover::after,
+&:focus::after,
+&:active::after {
+    color: #180D03; 
+}
+         }
+       }
+     }
+   }
+ }
+ 
+}
+
+.list{
+  text-indent: -1.5em;
+      margin-left: 1.5em;
+} */
+
+
+
+</style>
+
+
+
+
+</head>
+
+<body class="body tg-heading-subheading animation-style3">
+
+
+  <!--=====progress END=======-->
+
+  <div class="paginacontainer">
+
+    <div class="progress-wrap">
+      <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+      </svg>
+    </div>
+
+  </div>
+
+  <!--=====progress END=======-->
+
+  <!-- Preloader -->
+  <section>
+    <div id="preloader">
+      <div id="ctn-preloader" class="ctn-preloader ctn-preloader1">
+        <div class="animation-preloader">
+          <div class="spinner"></div>
+          <div class="txt-loading">
+            <span data-text-preloader="A" class="letters-loading">
+              A
+            </span>
+            <span data-text-preloader="i" class="letters-loading">
+              i
+            </span>
+            <span data-text-preloader="G" class="letters-loading">
+              G
+            </span>
+            <span data-text-preloader="e" class="letters-loading">
+              e
+            </span>
+            <span data-text-preloader="n" class="letters-loading">
+              n
+            </span>
+            <span data-text-preloader="e" class="letters-loading">
+              e
+            </span>
+            <span data-text-preloader="s" class="letters-loading">
+              s
+            </span>
+            <span data-text-preloader="i" class="letters-loading">
+              i
+            </span>
+            <span data-text-preloader="s" class="letters-loading">
+              s
+            </span>
+          </div>
+        </div>
+        <div class="loader-section-left loader-section section-left"></div>
+        <div class="loader-section-right loader-section section-right"></div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--=====HEADER START=======-->
+
+  <div class="header-top-home">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="pera">
+            <!--<p><img src="assets/img/icons/header-top-span.png" alt=""> Learn More About OmniAgents</p> --> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <header>
+    <div class="header-area header-area1 header-area-all d-none d-lg-block" id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="header-elements">
+              <div class="site-logo">
+                <a href="index.html">
+                  <img src="assets/img/logo/GAi Logo.png" alt="">
+                </a>
+              </div>
+              <div class="main-menu-ex main-menu-ex1">
+               <ul>
+        <li class="has-dropdown"><a href="index.html">Home </a>
+         <!--  <ul class="sub-menu">
+            <li class="has-dropdown has-dropdown1"><a href="#">Multipage</a>
+              <ul class="sub-menu">
+                <li><a href="index.html">Home 1</a></li>
+                <li><a href="index2.html">Home 2</a></li>
+                <li><a href="index3.html">Home 3</a></li>
+                <li><a href="index4.html">Home 4</a></li>
+                <li><a href="index5.html">Home 5</a></li>
+                <li><a href="index6.html">Home 6</a></li>
+                <li><a href="index7.html">Home 7</a></li>
+                <li><a href="index8.html">Home 8</a></li>
+                <li><a href="index9.html">Home 9</a></li>
+                <li><a href="index10.html">Home 10</a></li>
+              </ul>
+            </li>
+            <li class="has-dropdown has-dropdown1"><a href="#">Landing Page</a>
+              <ul class="sub-menu">
+                <li><a href="single-index.html">Home 1</a></li>
+                <li><a href="single-index2.html">Home 2</a></li>
+                <li><a href="single-index3.html">Home 3</a></li>
+                <li><a href="single-index4.html">Home 4 </a></li>
+                <li><a href="single-index5.html">Home 5 </a></li>
+                <li><a href="single-index6.html">Home 6 </a></li>
+                <li><a href="single-index7.html">Home 7 </a></li>
+                <li><a href="single-index8.html">Home 8 </a></li>
+                <li><a href="single-index9.html">Home 9 </a></li>
+                <li><a href="single-index10.html">Home 10 </a></li>
+              </ul>
+            </li>
+          </ul> -->
+        </li>
+        <li><a href="index.html#aboutPage">About Us</a></li>
+        <li class="has-dropdown"><a href="index.html#omniAgentsSection">OmniAgents</a>
+         <!--  <ul class="sub-menu">
+            <li><a href="service.html">Service</a></li>
+            <li><a href="service-details-left.html">Service Left</a></li>
+            <li><a href="service-details-right.html">Service Right</a></li>
+            <li><a href="service-details.html">Service Details</a></li>
+          </ul> -->
+        </li>
+
+        <li class="has-dropdown"><a href="index.html#finance">Industries</a>
+        <!--   <ul class="sub-menu">
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="testimonial.html">Testimonial</a></li>
+            <li><a href="error.html">404</a></li>
+          </ul> -->
+        </li>
+
+        <li class="has-dropdown"><a href="index.html#resourcesSection">Resources</a>
+          <!-- <ul class="sub-menu">
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="blog-sidebar.html">Blog Sidebar</a></li>
+            <li><a href="blog-details-left.html">Details Left</a></li>
+            <li><a href="blog-details-right.html">Details Right</a></li>
+            <li><a href="blog-details.html">Blog Details</a></li>
+          </ul> -->
+        </li>
+
+       <!--  <li class="has-dropdown"><a href="#">Project</a>
+          <ul class="sub-menu">
+            <li><a href="project.html">Project</a></li>
+            <li><a href="project-details-left.html">Project Left</a></li>
+            <li><a href="project-details-right.html">Project Right</a></li>
+            <li><a href="project-details.html">Project Details</a></li>
+          </ul>
+        </li> -->
+
+      </ul>
+
+              </div>
+
+
+              <div class="header1-buttons">
+                <div class="contact-btn">
+                 <div class="icon" style="background-color: white;">
+                    <a href="https://wa.me/919740289037" target="_blank">  <img src="assets/img/icons/whatsapp.png" alt=""></a>
+                  </div>
+                  <!-- <div class="headding">
+                    <p>WhatsApp</p>
+                    <a href="https://wa.me/919740289037" target="_blank"></a>
+                  </div> -->
+                </div>
+                <div class="button">
+                  <a class="theme-btn1" href="contact.html">Contact Us<span><i
+                        class="fa-solid fa-arrow-right"></i></span></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--=====HEADER END=======-->
+
+  <!--=====Mobile header start=======-->
+  <div class="mobile-header d-block d-lg-none ">
+    <div class="container-fluid">
+      <div class="col-12">
+        <div class="mobile-header-elements">
+          <div class="mobile-logo">
+            <a href="index.html"><img src="assets/img/logo/GAi Logo.png" alt="" width="100"></a>
+          </div>
+          <div class="mobile-nav-icon">
+            <i class="fa-duotone fa-bars-staggered"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mobile-sidebar d-block d-lg-none">
+    <div class="logo-m">
+      <a href="index.html" style="font-size: 32px;"><span style="color: #0ff2b2;"> Ai</span><span style="color: white;">Genesis</span></a>
+
+      <!-- <a href="index.html" style="font-size: 32px;"><span style="color: #0ff2b2;"> Ai</span><span style="color: white;">Genesis</span></a> -->
+    </div>
+    <div class="menu-close">
+      <i class="fa-solid fa-xmark"></i>
+    </div>
+    <div class="mobile-nav">
+
+      <ul>
+        <li class="has-dropdown"><a href="index.html">Home </a>
+         <!--  <ul class="sub-menu">
+            <li class="has-dropdown has-dropdown1"><a href="#">Multipage</a>
+              <ul class="sub-menu">
+                <li><a href="index.html">Home 1</a></li>
+                <li><a href="index2.html">Home 2</a></li>
+                <li><a href="index3.html">Home 3</a></li>
+                <li><a href="index4.html">Home 4</a></li>
+                <li><a href="index5.html">Home 5</a></li>
+                <li><a href="index6.html">Home 6</a></li>
+                <li><a href="index7.html">Home 7</a></li>
+                <li><a href="index8.html">Home 8</a></li>
+                <li><a href="index9.html">Home 9</a></li>
+                <li><a href="index10.html">Home 10</a></li>
+              </ul>
+            </li>
+            <li class="has-dropdown has-dropdown1"><a href="#">Landing Page</a>
+              <ul class="sub-menu">
+                <li><a href="single-index.html">Home 1</a></li>
+                <li><a href="single-index2.html">Home 2</a></li>
+                <li><a href="single-index3.html">Home 3</a></li>
+                <li><a href="single-index4.html">Home 4 </a></li>
+                <li><a href="single-index5.html">Home 5 </a></li>
+                <li><a href="single-index6.html">Home 6 </a></li>
+                <li><a href="single-index7.html">Home 7 </a></li>
+                <li><a href="single-index8.html">Home 8 </a></li>
+                <li><a href="single-index9.html">Home 9 </a></li>
+                <li><a href="single-index10.html">Home 10 </a></li>
+              </ul>
+            </li>
+          </ul> -->
+        </li>
+        <li><a href="mobile_about.html">About Us</a></li>
+        <li><a href="mobile_OmniAgents.html">OmniAgents</a>
+         <!--  <ul class="sub-menu">
+            <li><a href="service.html">Service</a></li>
+            <li><a href="service-details-left.html">Service Left</a></li>
+            <li><a href="service-details-right.html">Service Right</a></li>
+            <li><a href="service-details.html">Service Details</a></li>
+          </ul> -->
+        </li>
+
+        <li><a href="mobile_industries.html">Industries</a>
+        <!--   <ul class="sub-menu">
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="testimonial.html">Testimonial</a></li>
+            <li><a href="error.html">404</a></li>
+          </ul> -->
+        </li>
+
+        <li><a href="mobile_Resouces.html">Resources</a>
+          <!-- <ul class="sub-menu">
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="blog-sidebar.html">Blog Sidebar</a></li>
+            <li><a href="blog-details-left.html">Details Left</a></li>
+            <li><a href="blog-details-right.html">Details Right</a></li>
+            <li><a href="blog-details.html">Blog Details</a></li>
+          </ul> -->
+        </li>
+
+       <!--  <li class="has-dropdown"><a href="#">Project</a>
+          <ul class="sub-menu">
+            <li><a href="project.html">Project</a></li>
+            <li><a href="project-details-left.html">Project Left</a></li>
+            <li><a href="project-details-right.html">Project Right</a></li>
+            <li><a href="project-details.html">Project Details</a></li>
+          </ul>
+        </li> -->
+
+      </ul>
+
+      <div class="mobile-button">
+      <!--   <a class="menu-btn2" href="service.html">Learn More <span><i class="fa-solid fa-arrow-right"></i></span></a>-->
+      </div> 
+
+      <div class="single-footer-items">
+        <h3>Contact Us</h3>
+
+     <!--    <div class="contact-box">
+          <div class="icon">
+            <img src="assets/img/icons/footer1-icon1.png" alt="">
+          </div>
+          <div class="pera">
+            <a href="tel:(555) 987-6543">(555) 987-6543</a>
+          </div>
+        </div> -->
+
+        <div class="contact-box">
+          <div class="icon">
+            <img src="assets/img/icons/footer1-icon2.png" alt="">
+          </div>
+          <div class="pera">
+            <a href="tel:9740289037">+91 97402 89037</a>
+          </div>
+        </div>
+
+       
+       <!--  <div class="contact-box">
+          <div class="icon">
+            <img src="assets/img/icons/footer1-icon3.png" alt="">
+          </div>
+          <div class="pera">
+            <a href="mailto:admin@techxen.org">admin@techxen.org</a>
+          </div>
+        </div> -->
+
+       <!--  <div class="contact-box">
+          <div class="icon">
+            <img src="assets/img/icons/footer1-icon4.png" alt="">
+          </div>
+          <div class="pera">
+            <a href="mailto:admin@techxen.org">www.techxen.org</a>
+          </div>
+        </div> -->
+
+      </div>
+
+      <div class="contact-infos">
+        <!-- <h3>Our Location</h3> -->
+        <ul class="social-icon">
+          <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+      </div>
+      <br>
+      <br>
+      <div class="button">
+        <a class="theme-btn1" href="contact.html">Contact Us<span><i
+              class="fa-solid fa-arrow-right"></i></span></a>
+      </div>
+    </div>
+  </div>
+
+  <!--=====Mobile header end=======-->
+
+
+  <!--=====HERO AREA START=======-->
+
+  <!-- <div class="common-hero">
+    <div class="container">
+      <div class="row align-items-center text-center">
+        <div class="col-lg-10 m-auto">
+          <div class="main-heading">
+            <h1 style="font-family: 'mokoto';">OmniMaintain (Predictive Maintenance)</h1>
+            <div class="space16"></div>
+            <span class="span"><img src="assets/img/icons/span1.png" alt="" width="20"> <a href="index.html">Home</a>
+              <span class="arrow"><i class="fa-regular fa-angle-right"></i></span> OmniMaintain</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div> -->
+
+  <!--=====HERO AREA END=======-->
+
+
+
+     <!--=====FAQ AREA START=======-->
+     <div class="space50"></div>
+     <div class="faq6 sp c-bg1">
+      <div class="container">
+        <div class="icon">
+          <div class="heading1">
+          <h4><a> <img src="assets/img/omniagents/pm.svg" alt="" style="width: 7%;"><span style="color: #0ff2b2;font-size: 32px;">Omni</span>  <span style="width: 5%;"><span style="font-size: 32px;">Maintain - </span> <span style="font-weight: 100; font-size: 32px;"> Predictive
+            Maintenance</span></a></h4>
+    
+        </div>
+      </div>
+      <div class="space50"></div>
+        <div class="row align-items-center">
+          <div class="col-lg-12">
+            <div class="heading6">
+              <!-- <span class="span" data-aos="zoom-in-left" data-aos-duration="700">FAQ’S</span> -->
+              <h2 class="tg-element-title" style="font-family: 'mokoto';"> Key Features </h2>
+              <div class="space16"></div>
+              <!-- <p>OmniMaintain, an intelligent AI-driven predictive maintenance agent from AiGenesis, redefines how enterprises manage their critical 
+                infrastructure and equipment. By combining IoT sensor integration, machine learning models, and real-time analytics, OmniMaintain ensures operational efficiency, minimizes downtime, and maximizes asset lifespan. 
+                It is the go-to solution for industries like manufacturing, energy, and transportation, aiming to elevate maintenance strategies from reactive to proactive.</p> -->
+<!-- 
+              <div class="space10"></div> -->
+              <div class="faq-area">
+                <div class="accordion accordion1" id="accordionExample">
+
+                  <div class="accordion-item active">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Introduction: What is OmniMaintain? 
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                     
+                       <l>OmniMaintain, an intelligent AI-driven predictive maintenance agent from AiGenesis, redefines how enterprises manage their critical 
+                        infrastructure and equipment. By combining IoT sensor integration, machine learning models, and real-time analytics, OmniMaintain ensures operational efficiency, minimizes downtime, and maximizes asset lifespan. 
+                        It is the go-to solution for industries like manufacturing, energy, and transportation, aiming to elevate maintenance strategies from reactive to proactive.</l>
+                 
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Challenges Addressed
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <div class="list">
+                        <li>Unplanned Downtime: Equipment failures cause costly disruptions in operations.</li>
+                        <li>Inefficient Maintenance Cycles: Over-maintenance wastes resources, while under-maintenance risks failures.</li>
+                        <li>Regulatory Compliance: Difficulty adhering to maintenance-related industry regulations.</li>
+                        <li>Resource Constraints: Lack of manpower to monitor equipment continuously.</li>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Benefits
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <div class="list">
+                        <li>Proactive Failure Prevention: Detect potential equipment issues before they escalate.</li>
+                        <li>Operational Reliability: Maintain consistent performance, minimizing disruptions.</li>
+                        <li>Cost Efficiency: Reduce maintenance costs by optimizing scheduling and resources.</li>
+                        <li>Compliance Made Easy: Automate the generation of audit-ready reports, ensuring adherence to standards.</li>
+                        <li>Data-Driven Decision-Making: Leverage AI insights for strategic asset management.</li>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Typical Use Cases
+                      </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <div class="list">
+                        <li>Manufacturing: Predict wear and tear on production machinery to prevent costly halts.</li>
+                        <li>Energy Sector: Monitor and maintain turbines or generators, avoiding blackouts.</li>
+                        <li>Transportation: Ensure fleet safety and efficiency through real-time diagnostics.</li>
+                        <li>Data Centers: Prevent server overheating and ensure seamless digital operations.</li>
+                        <li>Healthcare Equipment: Maintain critical devices like MRI machines to support uninterrupted patient care.</li>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Key Features
+                      </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <div class="list">
+                        <li>IoT Integration: Seamlessly connects with SCADA systems and telemetry devices for real-time data collection.</li>
+                        <li>Predictive Analytics: Machine learning models analyze historical and current data to predict failures.</li>
+                        <li>Automated Scheduling: Dynamically allocates maintenance tasks based on priority and resource availability.</li>
+                        <li>Compliance Tools: Generates detailed logs and reports required for regulatory audits.</li>
+                        <li>DynamicOps Integration: Orchestrates workflows, ensuring smooth collaboration with other AI agents.</li>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSix">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        Value Proposition
+                      </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingsix" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        
+                        <l>OmniMaintain doesn’t just solve operational inefficiencies—it transforms maintenance into a strategic advantage. By minimizing unplanned downtime, ensuring regulatory compliance, and optimizing resource use, this AI agent empowers enterprises to focus on innovation and growth.</l>
+                        <br>
+                        <br>
+                        <l>Whether you are a CTO aiming to modernize your infrastructure, a CFO concerned about cost control, or a COO targeting flawless operational uptime, OmniMaintain delivers tailored benefits across the board.</l>
+                        <br>
+                        <br>
+                        <l>In today’s fast-paced world, predictive maintenance is not a luxury but a necessity—and OmniMaintain is here to make it seamless. Let’s move forward with proactive efficiency!</l>
+                   
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="space40"></div>
+                  <div class="heading6">
+                    <!-- <span class="span" data-aos="zoom-in-left" data-aos-duration="700">FAQ’S</span> -->
+                    <h2 class="tg-element-title" style="font-family: 'mokoto';"> Q&A </h2>
+                    <div class="space16"></div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingSeven">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                          How does OmniMaintain use IoT sensors?
+                        </button>
+                      </h2>
+                      <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <div class="space16"></div>
+                          <l>OmniMaintain integrates with IoT sensors to continuously monitor equipment performance in real-time, collecting telemetry data such as temperature, vibration, and usage patterns.</l>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingEight">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                          What machine learning models does OmniMaintain employ for predictive analytics?
+                        </button>
+                      </h2>
+                      <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <div class="space16"></div>
+                          <l>OmniMaintain uses advanced ML frameworks like TensorFlow and PyTorch to analyze historical maintenance data and predict failures before they occur.</l>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingNine">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                          How does OmniMaintain integrate with SCADA systems?
+                        </button>
+                      </h2>
+                      <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <div class="space16"></div>
+                          <l>OmniMaintain connects seamlessly with SCADA systems, leveraging their data streams to provide comprehensive monitoring and maintenance insights.</l>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTen">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                          What industries commonly use OmniMaintain?
+                        </button>
+                      </h2>
+                      <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <div class="space16"></div>
+                          <l>Industries such as manufacturing, energy, and transportation rely on OmniMaintain to reduce downtime, enhance safety, and optimize operational efficiency.</l>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingEleven">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                          How does OmniMaintain reduce equipment downtime?
+                        </button>
+                      </h2>
+                      <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <div class="space16"></div>
+                          <l>By detecting potential failures early and scheduling maintenance proactively, OmniMaintain ensures continuous operation and minimizes unplanned outages.</l>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwelve">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                          Can OmniMaintain generate compliance reports?
+                        </button>
+                      </h2>
+                      <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <div class="space16"></div>
+                          <l>Yes, OmniMaintain automates compliance reporting, generating detailed logs and reports required for regulatory adherence.</l>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThirteen">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+                          What are the KPIs tracked by OmniMaintain?
+                        </button>
+                      </h2>
+                      <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <div class="space16"></div>
+                          <l>Key performance indicators include downtime reduction, maintenance cost savings, and asset lifespan improvement.</l>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFourteen">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+                      How does OmniMaintain interact with DynamicOps?
+                    </button>
+                  </h2>
+                  <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <div class="space16"></div>
+                      <l>OmniMaintain uses DynamicOps' CMDB and orchestration services to automate workflows and integrate with other AI agents.</l>
+                  </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFifteen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+                  What are the real-time telemetry capabilities of OmniMaintain?
+                </button>
+              </h2>
+              <div id="collapseFifteen" class="accordion-collapse collapse" aria-labelledby="headingFifteen" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <div class="space16"></div>
+                  <l>OmniMaintain provides live dashboards with real-time metrics such as sensor data trends, asset performance, and alerts.</l>
+              </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSixteen">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
+              How does OmniMaintain handle automated maintenance scheduling?
+            </button>
+          </h2>
+          <div id="collapseSixteen" class="accordion-collapse collapse" aria-labelledby="headingSixteen" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="space16"></div>
+              <l>Using AI algorithms, OmniMaintain prioritizes and schedules maintenance tasks dynamically, considering workload demands and resource availability.</l>
+          </div>
+        </div>
+    </div>
+    <div class="space50"></div>
+
+              </div>
+              
+            </div>
+           
+          </div>
+        </div>
+        <!-- <br>
+        <br>
+        <div class="col-lg-12">
+          <div class="faq-image image-anime" data-aos="zoom-out" data-aos-duration="800">
+            
+            <img src="assets/img/keywords/quest.png" alt="">
+          </div>
+        </div> -->
+      </div>
+    </div>
+   
+    <!--=====FAQ AREA END=======-->
+
+
+
+    <!-- ====Slider ======-->
+      <!-- <section class="hero10-benar">
+                  <div class="container-fluid p-0">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="marquee-wrap marquee-wrap-inner">
+                          <div class="marquee-text">
+          
+                            <div class="brand-single-box">
+                           <p style="font-size: 14px;">Comprehensive Q&A: OmniAgents by AiGenesis</p>
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="slider-after"></div>
+                  </div>
+                </section> -->
+
+                <!--Slider end-->
+
+    
+
+  <!--=====BLOG AREA START=======-->
+
+<!--   <div class="blog blog-inline blog-page bg1 sp">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 m-auto text-center">
+          <div class="heading1 main">
+            <h2>More Blog</h2>
+          </div>
+        </div>
+      </div>
+      <div class="space30"></div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="blog2-box">
+            <div class="image">
+              <img src="assets/img/blog/blog2-img2.png" alt="">
+            </div>
+            <div class="heading1">
+              <div class="tags">
+                <a href="#" class="date"><img src="assets/img/icons/date.png" alt=""> 10/02/2024</a>
+                <a href="#" class="date outhor"><img src="assets/img/icons/user.png" alt=""> Ben Cutting</a>
+              </div>
+              <h4><a href="blog-details.html">The Importance of Cybersecurity</a></h4>
+              <div class="space16"></div>
+              <p>We explore the growing trend of remote work and its implications for cybersecurity.</p>
+              <div class="space16"></div>
+              <a href="blog-details.html" class="learn">Read More <span><i
+                    class="fa-solid fa-arrow-right"></i></span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="blog2-box">
+            <div class="image">
+              <img src="assets/img/blog/blog2-img1.png" alt="">
+            </div>
+            <div class="heading1">
+              <div class="tags">
+                <a href="#" class="date"><img src="assets/img/icons/date.png" alt=""> 10/02/2024</a>
+                <a href="#" class="date outhor"><img src="assets/img/icons/user.png" alt=""> Ben Cutting</a>
+              </div>
+              <h4><a href="blog-details.html">The Future of Cloud Computing</a></h4>
+              <div class="space16"></div>
+              <p>We take a deep dive into the future of cloud computing and discuss emerging trends and predictions that
+                the industry.</p>
+              <div class="space16"></div>
+              <a href="blog-details.html" class="learn">Read More <span><i
+                    class="fa-solid fa-arrow-right"></i></span></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div> -->
+
+  <!--=====BLOG AREA END=======-->
+
+  <!--=====CTA AREA START=======-->
+
+<!--   <div class="cta">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          <div class="heading1-w">
+            <h2>At TechXen IT Solutions, We're Committed To Businesses</h2>
+            <div class="space16"></div>
+            <p>Take the first step towards achieving your business goals by contacting us today. Schedule a consultation
+              with one of our IT specialists to discuss your objectives and explore how our innovative solutions can
+              propel.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-5">
+          <div class="buttons">
+            <a class="cta-btn1" href="service.html">Request a Consultaion <span><i
+                  class="fa-solid fa-arrow-right"></i></span></a>
+            <a class="cta-btn2" href="service.html">Explore Solution <span><i
+                  class="fa-solid fa-arrow-right"></i></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <div class="cta">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          <div class="heading1-w">
+            <h2 class="title tg-element-title">Get in Touch</h2>
+            <div class="space16"></div>
+            <p data-aos="fade-right" data-aos-duration="700">Have questions about our OmniAgents or how AiGenesis Tech
+              can help transform your enterprise? We're here to help.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-5">
+          <div class="buttons">
+           <a class="cta-btn1" href="contact.html">Explore Solution<span><i
+                  class="fa-solid fa-arrow-right"></i></span></a>
+            <!--   <a class="cta-btn2" href="service.html">Explore Solution <span><i
+                  class="fa-solid fa-arrow-right"></i></span></a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--=====CTA AREA END=======-->
+
+ 
+    <!--===== FOOTER AREA START =======-->
+
+    <div class="footer1 _relative">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="single-footer-items footer-logo-area">
+              <div class="footer-logo">
+                <h2>About AiGenesis Tech</h2>
+                <!-- <a href=""><img src="assets/img/logo/footer-logo1.png" alt=""></a> -->
+              </div>
+              <div class="space20"></div>
+              <div class="heading1">
+                <p>AiGenesis Tech reimagines the future of enterprise operations with AI-driven OmniAgents that empower businesses to adapt, evolve, and excel.
+                  Our autonomous AI agents (OmniAgents) leverage cutting-edge AI to revolutionize your business operations, offering predictive maintenance,
+                   compliance automation, and personalized customer experiences. By combining technology innovation with strategic foresight, we create seamless, 
+                   scalable solutions that drive measurable success. Let AiGenesis Tech be your trusted partner in pioneering the future of business. </p>
+              </div>
+              <ul class="social-icon">
+                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        
+          <div class="col-lg col-md-6 col-12">
+            <div class="single-footer-items">
+              <h3>Product</h3>
+        
+              <ul class="menu-list" > 
+                <li><a href="index.html#Omni">OmniMaintain</a></li>
+                <li><a href="index.html#Optimize">OmniOptimize</a></li>
+                <li><a href="index.html#Secure">OmniSecure</a></li>
+                <li><a href="index.html#Comply">OmniComply</a></li>
+                <li><a href="index.html#Detect">OmniDetect</a></li>
+                <li><a href="index.html#Spend">OmniSpend</a></li>
+                <li><a href="index.html#Engage">OmniEngage</a></li>
+                <li><a href="index.html#Recover">OmniRecover</a></li>
+                <!--  <span id="dots">...</span>
+                       
+                          <span id="more"> -->
+                <li><a href="index.html#Patch">OmniPatch</a></li>
+                <li><a href="index.html#Assure">OmniAssure</a></li>
+                <li><a href="index.html#Deploy">OmniDeploy</a></li>
+                <li><a href="index.html#Protect">OmniProtect</a></li>
+                <li><a href="index.html#Monitor">OmniMonitor</a></li>
+                <li><a href="index.html#Adapt">OmniAdapt</a></li>
+                <li><a href="index.html#Migrate">OmniMigrate</a></li>
+                <li><a href="index.html#Predict">OmniPredict</a></li>
+                <li><a href="index.html#Connect">OmniConnect</a></li>
+                <li><a href="index.html#Inventory">OmniInventory</a></li>
+                <li><a href="index.html#Validate">OmniValidate</a></li>
+                <li><a href="index.html#Analyze">OmniAnalyze</a></li>
+                <!--  </span>
+                         <li onclick="myFunction()" id="moreContent">See more</li> -->
+              </ul>
+            </div>
+          </div>
+        
+          <div class="col-lg col-md-6 col-12">
+            <div class="single-footer-items">
+              <h3>Industries</h3>
+        
+              <ul class="menu-list">
+                <li><a href="index.html#manufacture">Manufacturing </a></li>
+                <li><a href="index.html#healthcare">Healthcare</a></li>
+                <li><a href="index.html#retail">Retail</a></li>
+                <li><a href="index.html#finance">Finance</a></li>
+                <li><a>Energy</a></li>
+                <li><a>Telecommunication</a></li>
+                <li><a>Transportation</a></li>
+                <li><a>Government</a></li>
+                <li><a>Technology</a></li>
+                <li><a>Media</a></li>
+              </ul>
+            </div>
+          </div>
+        
+          <div class="col-lg col-md-6 col-12">
+            <div class="single-footer-items">
+              <h3>Resources</h3>
+              <ul class="menu-list">
+                <li><a>Whitepapers </a></li>
+                <li><a>eBooks</a></li>
+                <li><a>Webinars</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Case Studies</a></li>
+                <li><a>Press Release</a></li>
+                <li><a>Events</a></li>
+                <li><a>Careers</a></li>
+                <li><a>Support</a></li>
+                <li><a>Media</a></li>
+              </ul>
+            </div>
+          </div>
+        
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="single-footer-items">
+              <h3>Legal</h3>
+              <ul class="menu-list">
+                <li><a>Privacy Policy </a></li>
+                <li><a>Terms of Service</a></li>
+                <li><a>Acceptable Use Policy</a></li>
+                <li><a>Data Processing Agreement</a></li>
+                <li><a>Cookie Policy</a></li>
+                <li><a>GDPR Compliance</a></li>
+                <li><a>CCPA Compliance</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+          <div class="copyright-area">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-md-5">
+                  <div class="coppyright">
+                    <p>© 2022 AiGenesis Tech, Inc. All rights reserved.</p>
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <div class="coppyright right-area">
+                    <a>Terms & Conditions</a>
+                    <a>Privacy Policy</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      
+</div>
+        <!--===== FOOTER AREA END =======-->
+
+
+
+
+  <script>
+
+  </script>
+
+
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <script src="assets/js/fontawesome.js"></script>
+  <script src="assets/js/jquery.countup.js"></script>
+  <script src="assets/js/mobile-menu.js"></script>
+  <script src="assets/js/jquery.magnific-popup.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/slick-slider.js"></script>
+  <script src="assets/js/gsap.min.js"></script>
+  <script src="assets/js/ScrollTrigger.min.js"></script>
+  <script src="assets/js/Splitetext.js"></script>
+  <script src="assets/js/text-animation.js"></script>
+  <script src="assets/js/SmoothScroll.js"></script>
+  <script src="assets/js/jquery.lineProgressbar.js"></script>
+  <script src="assets/js/ripple-btn.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
